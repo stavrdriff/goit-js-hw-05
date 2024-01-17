@@ -1,6 +1,6 @@
 'use strict';
 
-const getUserNames = (arr) => arr.map((el) => el = el.name);
+const getUserNames = (users) => users.map((user) => user = user.name);
 
 console.log(
   getUserNames([
