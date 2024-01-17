@@ -1,6 +1,9 @@
 'use sctrict'
 
-const getTotalBalanceByGender = (users, gender) => users.filter((el) => el.gender === gender).map((el) => el.balance).reduce((acc, number) => acc + number);;
+const getTotalBalanceByGender = (users, gender) => users
+  .filter((el) => el.gender === gender)
+  .map((el) => el.balance)
+  .reduce((acc, number) => acc + number);;
 
 const allUsers = [
     {
